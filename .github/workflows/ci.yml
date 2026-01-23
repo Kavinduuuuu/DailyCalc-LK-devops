@@ -2,7 +2,7 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [main, develop, feature/*]
+    branches: [main, develop, "feature/*"]
   pull_request:
     branches: [main, develop]
 
@@ -20,7 +20,8 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        # මෙහිදී subfolder එකේ නම නිවැරදිව ලබා දී ඇත
+        # මෙහිදී path එක නිවැරදිව ලබා දී ඇත. 
+        # ඔබගේ folder structure එක අනුව මෙය වෙනස් විය හැක.
         run: npm install
         working-directory: ./DailyCalc-LK-devops
 
