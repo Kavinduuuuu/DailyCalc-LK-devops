@@ -2,7 +2,7 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [main, develop, "feature/*"]
+    branches: [main, develop, feature/*]
   pull_request:
     branches: [main, develop]
 
@@ -11,20 +11,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
+      - uses: actions/checkout@v3
 
       - name: Install dependencies
-        # මෙහිදී path එක නිවැරදිව ලබා දී ඇත. 
-        # ඔබගේ folder structure එක අනුව මෙය වෙනස් විය හැක.
+        # This tells the runner to jump into the folder before running the command
         run: npm install
-        working-directory: ./DailyCalc-LK-devops
+        working-directory: .H:\DailyCalcLK\DailyCalc-LK-devops\DailyCalc-LK-devops\package.json 
 
       - name: Run npm run build
         run: npm run build
-        working-directory: ./DailyCalc-LK-devops
+        working-directory: .H:\DailyCalcLK\DailyCalc-LK-devops\DailyCalc-LK-devops\package.json
