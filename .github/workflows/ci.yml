@@ -11,9 +11,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: '18'
-    - run: npm install || echo "No deps"
-    - run: npm run build
+      - uses: actions/checkout@v3
+
+      - name: Install dependencies
+        # This tells the runner to jump into the folder before running the command
+        run: npm install
+        working-directory: .H:\DailyCalcLK\DailyCalc-LK-devops\DailyCalc-LK-devops\package.json
+
+      - name: Run npm run build
+        run: npm run build
+        working-directory: .H:\DailyCalcLK\DailyCalc-LK-devops\DailyCalc-LK-devops\package.json
