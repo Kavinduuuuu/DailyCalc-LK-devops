@@ -1,9 +1,0 @@
-{
-  "name": "dailycalc-lk",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build": "echo Build completed successfully",
-    "test": "echo Tests completed"
-  }
-}
