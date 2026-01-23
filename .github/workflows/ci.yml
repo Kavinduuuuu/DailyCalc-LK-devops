@@ -11,13 +11,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
 
       - name: Install dependencies
-        # This tells the runner to jump into the folder before running the command
+        # මෙහිදී subfolder එකේ නම නිවැරදිව ලබා දී ඇත
         run: npm install
-        working-directory: .H:\DailyCalcLK\DailyCalc-LK-devops\DailyCalc-LK-devops\package.json
+        working-directory: ./DailyCalc-LK-devops
 
       - name: Run npm run build
         run: npm run build
-        working-directory: .H:\DailyCalcLK\DailyCalc-LK-devops\DailyCalc-LK-devops\package.json
+        working-directory: ./DailyCalc-LK-devops
