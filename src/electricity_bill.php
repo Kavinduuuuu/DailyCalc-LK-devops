@@ -26,7 +26,7 @@
                 <p class="mt-2 fs-4 text-center m-auto">Calculate your electricity bill.</p>
                 <hr />
                 <div class="row p-3 py-3">
-                    <div class="col-4 p-3 py-3 electricity m-auto">
+                    <div class="col-md-4 col-12 p-3 py-3 electricity m-auto">
                         <div class="mb-3">
                             <label>Enter Units Used</label>
                             <input type="number" class="form-control" id="units_uesd" placeholder="75" />
