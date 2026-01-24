@@ -14,7 +14,7 @@
 �
 �
 
-**Live URL:** [Your deployed application URL] 
+**Live URL:** DailyCalcLK.wuaze.com
 
 ## Technologies Used - HTML5, CSS3, JavaScript - [Any frameworks/libraries used] - GitHub Actions - [Deployment platform name] 
 
