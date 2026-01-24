@@ -1,4 +1,4 @@
-name: Deploy to Render
+name: Deploy to InfinityFree
 
 on:
   push:
@@ -10,9 +10,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Deploy to Render
-        run: curl -X POST "$RENDER_DEPLOY_HOOK"
-        env:
-          RENDER_DEPLOY_HOOK: ${{ secrets.RENDER_DEPLOY_HOOK }}
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.ftpupload.net }}
+          username: ${{ secrets.if0_40983186 }}
+          password: ${{ secrets.Shakya0501 }}
+          server-dir: /htdocs/
+          local-dir: ./
