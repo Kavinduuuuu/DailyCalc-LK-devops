@@ -1,23 +1,20 @@
-name: Deploy to InfinityFree
+name: FTP Deploy
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.ftpupload.net }}
-          username: ${{ secrets.if0_40983186 }}
-          password: ${{ secrets.Shakya0501 }}
-          server-dir: /htdocs/
-          local-dir: ./
+    - uses: actions/checkout@v3
+    
+    - name: Deploy via FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ftp.infinityfree.com
+        username: if0_40983186
+        password: Shakya0501  # ← SECURE!
+        local-dir: ./
+        server-dir: /htdocs/
