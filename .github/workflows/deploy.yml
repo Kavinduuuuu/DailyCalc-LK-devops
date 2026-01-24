@@ -17,4 +17,4 @@ jobs:
         username: if0_40983186
         password: Shakya0501  # ← SECURE!
         local-dir: ./
-        server-dir: /htdocs/
+        server-dir: /htdocs/DailyCalc_LK_project\DailyCalc-LK-devops\src
