@@ -1,19 +1,24 @@
-name: CI Pipeline
+name: PHP CI
 
 on:
   push:
-    branches: [main, develop, feature/*]
-  pull_request:
     branches: [main, develop]
+  pull_request:
+    branches: [main]
 
 jobs:
-  build:
+  php-ci:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: '18'
-    - run: npm install || echo "No deps"
-    - run: npm run build
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+
+      - name: PHP syntax check
+        run: |
+          find src -name "*.php" -print0 | xargs -0 -n1 php -l
