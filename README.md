@@ -3,8 +3,8 @@
 ## Group Information 
 
 - **Student 1:** Kavindu Thathsara - ITBIN-2313-0115 - Role: [DevOps/Release Manager]  
-- **Student 2:** A. W. S. Sandeepa - ITBIN-2313-0142 - Role: [Front End Develover] 
-- **Student 3:** K. G. S. Sangeeth - ITBIN-2313-0099 - Role: [Back Name] 
+- **Student 2:** A. W. S. Sandeepa - ITBIN-2313-0142 - Role: [Front End Developer] 
+- **Student 3:** K. G. S. Sangeeth - ITBIN-2313-0099 - Role: [Back End Developer] 
 
 ## Project Description 
 DailyCalcLK is a web-based utility application designed to help Sri Lankan users perform essential daily calculations. It provides a clean, responsive interface for tasks such as electricity bill estimation, VAT/tax calculations, and currency conversions, ensuring accuracy and ease of use for the general public.
