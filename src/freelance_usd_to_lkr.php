@@ -26,7 +26,7 @@
                 <p class="mt-2 fs-4 text-center m-auto">Calculate your freelance earnings in LKR.</p>
                 <hr />
                 <div class="row p-3 py-3">
-                    <div class="col-4 p-4 py-4 take_home m-auto">
+                    <div class="col-md-4 col-12 p-4 py-4 take_home m-auto">
                         <div class="mb-3">
                             <label>USD Amount:-</label>
                             <input type="number" class="form-control" id="USD_amount" placeholder="($ 100)" />
