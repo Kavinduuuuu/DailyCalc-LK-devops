@@ -7,7 +7,9 @@
 - **Student 3:** K. G. S. Sangeeth - ITBIN-2313-0099 - Role: [Back End Developer] 
 
 ## Project Description 
-DailyCalcLK is a web-based utility application designed to help Sri Lankan users perform essential daily calculations. It provides a clean, responsive interface for tasks such as electricity bill estimation, VAT/tax calculations, and currency conversions, ensuring accuracy and ease of use for the general public.
+DailyCalc LK is a web-based utility application designed to help Sri Lankan users perform essential daily calculations.  
+The system provides a clean, responsive, and user-friendly interface for common tasks such as electricity bill estimation, tax-related calculations, and currency conversions.  
+The application focuses on simplicity, accuracy, and local relevance for Sri Lankan users.
 
 ## Live Deployment 
 �
@@ -17,14 +19,22 @@ DailyCalcLK is a web-based utility application designed to help Sri Lankan users
 DailyCalcLK.wuaze.com
 
 ## Technologies Used 
-- HTML5, CSS3, JavaScript - Bootstrap 5 
-- GitHub Actions - [Deployment platform name] 
+
+- HTML5  
+- CSS  
+- JavaScript  
+- Bootstrap 5  
+- PHP  
+- GitHub Actions (CI/CD)  
+- InfinityFree / Wuaze (Deployment Platform)  
 
 
 ## Features 
-- Feature 1 
-- Feature 2 
-- Feature 3 
+- Electricity Bill Calculator based on Sri Lanka usage slabs  
+- VAT and tax-related calculation utilities  
+- Currency conversion tools (USD to LKR)  
+- Responsive and mobile-friendly user interface  
+- Simple navigation and category-based calculators  
 
 ## Branch Strategy 
 We implemented the following branching strategy: 
@@ -37,17 +47,18 @@ We implemented the following branching strategy:
 
 
 ### Kavindu Thathsara 
-- Repository setup and configuration 
-- GitHub Actions CI/CD pipeline implementation 
-- Deployment setup and management 
+- Repository setup and Git configuration  
+- GitHub Actions CI/CD pipeline implementation  
+- Deployment setup and release management  
+- Branch management and merge handling  
 
 ### A. W. S. Sandeepa
-- Development of front-end user interface using PHP, CSS, and Bootstrap
-- Implementation of responsive design and layout improvements
-- Integration of JavaScript for client-side interactivity and validation
+- Development of front-end user interface using HTML, CSS, and Bootstrap  
+- Implementation of responsive layouts and UI components  
+- Client-side interactivity and validation using JavaScript  
 
 ### K. G. S. Sangeeth
-- Development of backend functionality using PHP
-- Handling of form processing and server-side logic
-- Debugging and fixing PHP runtime and logic errors
-- Integration of frontend with backend components
+- Development of backend functionality using PHP  
+- Handling form processing and server-side logic  
+- Integration of frontend and backend components  
+- Debugging and fixing PHP runtime and logical errors  
