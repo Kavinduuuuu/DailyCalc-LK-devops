@@ -2,9 +2,9 @@
 
 ## Group Information 
 
-- **Student 1:** Kavindu Thathsara - ITBIN-2313-0115 - Role: [DevOps/Release Manager]  
-- **Student 2:** A. W. S. Sandeepa - ITBIN-2313-0142 - Role: [Front End Developer] 
-- **Student 3:** K. G. S. Sangeeth - ITBIN-2313-0099 - Role: [Back End Developer] 
+- **Student 1:** Kavindu Thathsara - ITBIN-2313-0115 - Role: DevOps/Release Manager
+- **Student 2:** A. W. S. Sandeepa - ITBIN-2313-0142 - Role: Front End Developer
+- **Student 3:** K. G. S. Sangeeth - ITBIN-2313-0099 - Role: Back End Developer
 
 ## Project Description 
 DailyCalc LK is a web-based utility application designed to help Sri Lankan users perform essential daily calculations.  
