@@ -197,3 +197,85 @@ function calculate_baby_expenses() {
 function GPA_calculator() {
     window.location = "gpa_calc.php";
 }
+
+
+function calculate_gpa() {
+    var sub_grades = [
+        document.getElementById("sg_1").value,
+        document.getElementById("sg_2").value,
+        document.getElementById("sg_3").value,
+        document.getElementById("sg_4").value,
+        document.getElementById("sg_5").value,
+        document.getElementById("sg_6").value
+    ];
+
+    var credits = [
+        parseFloat(document.getElementById("credit_1").value) || 0,
+        parseFloat(document.getElementById("credit_2").value) || 0,
+        parseFloat(document.getElementById("credit_3").value) || 0,
+        parseFloat(document.getElementById("credit_4").value) || 0,
+        parseFloat(document.getElementById("credit_5").value) || 0,
+        parseFloat(document.getElementById("credit_6").value) || 0
+    ];
+
+    function getGradePoint(grade) {
+        grade = grade.toUpperCase();
+        switch (grade) {
+            case 'A+/A': return 4.0;
+            case 'A-': return 3.7;
+            case 'B+': return 3.3;
+            case 'B': return 3.0;
+            case 'B-': return 2.7;
+            case 'C+': return 2.3;
+            case 'C': return 2.0;
+            case 'C-': return 1.7;
+            case 'D+': return 1.3;
+            case 'D': return 1.0;
+            case 'F': return 0.0;
+            default: return 0.0;
+        }
+    }
+
+    var total_points = 0;
+    var total_credits = 0;
+
+    for (var i = 0; i < 6; i++) {
+        var gp = getGradePoint(sub_grades[i]);
+        var cred = credits[i];
+        total_points += gp * cred;
+        total_credits += cred;
+    }
+
+    var gpa = total_credits > 0 ? total_points / total_credits : 0;
+    document.getElementById("gpa").innerHTML = gpa.toFixed(2);
+}
+
+
+function attendece_calc() {
+    window.location = "attendece_calc.php"
+}
+
+function calculate_attendance_percentage() {
+    var tot_days = parseFloat(document.getElementById("total_classes").value);
+    var attendece_days = parseFloat(document.getElementById("attended_classes").value);
+
+    var attendece = (attendece_days / tot_days) * 100;
+
+    document.getElementById("attendance_percentage").innerHTML = attendece.toFixed(2);
+
+
+}
+
+
+function Study_Time_per_Subject(){
+    window.location = "study_time_per_subject.php";
+}
+
+function Total_time_per_sub_cal() {
+    var total_study_time = parseInt(document.getElementById("total_study_time").value);
+    var number_of_subjects = parseInt(document.getElementById("number_of_subjects").value);
+
+    var study_time_per_subject = total_study_time / number_of_subjects;
+
+    document.getElementById("study_time_per_subject").innerHTML = study_time_per_subject.toFixed(2);
+}

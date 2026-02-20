@@ -153,19 +153,19 @@
                         </div>
                     </div>
                     <div class="col-sm-4 mb-3 mb-sm-0 col-12">
-                        <div class="card e_1" onclick="Houserant()">
+                        <div class="card e_1" onclick="attendece_calc()">
                             <div class="card-body">
-                                <h5 class="card-title">House Rental</h5>
-                                <p class="card-text">Calculate your house rental. </p>
+                                <h5 class="card-title">Attendance Percentage Calculator</h5>
+                                <p class="card-text">Calculate your attendance percentage. </p>
                                 <a href="#" class="btn">Calculate</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4 mb-3 mb-sm-0 col-12">
-                        <div class="card e_1" onclick="monthly_baby_Expense()">
+                        <div class="card e_1" onclick="Study_Time_per_Subject()">
                             <div class="card-body">
-                                <h5 class="card-title">Baby Monthly Expense Calculator</h5>
-                                <p class="card-text">Calculate your Baby Expense.</p>
+                                <h5 class="card-title">Study Time Per Subject Calculator</h5>
+                                <p class="card-text">Calculate your study time per subject.</p>
                                 <a href="#" class="btn ">Calculate</a>
                             </div>
                         </div>
@@ -181,7 +181,7 @@
 
                 <div class="row p-3 py-3" id="productivity">
                     <h2>Productivity Calculators</h2>
-                    <div class="col-sm-4 col-12 mb-3 mb-sm-0">
+                    <!--<div class="col-sm-4 col-12 mb-3 mb-sm-0">
                         <div class="card p_1" onclick="Wedding_budget()">
                             <div class="card-body">
                                 <h5 class="card-title">Wedding Budget</h5>
@@ -207,7 +207,11 @@
                                 <a href="#" class="btn ">Calculate</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                    <h3>
+                        This section is under development. Stay tuned for more productivity calculators coming soon!
+                    </h3>
+
                 </div>
 
                 <hr>

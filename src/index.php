@@ -34,7 +34,6 @@
                                 <div class="row">
                                     <div class="col-12 d-flex justify-content-center gap-3">
                                         <a href="calc_list.php" class="btn btn-success btn-lg px-4">Start Calculating</a>
-                                        <a href="about.php" class="btn btn-outline-primary btn-lg px-4">Learn More</a>
                                     </div>
                                 </div>
                             </div>

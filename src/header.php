@@ -54,7 +54,7 @@
 
                     </ul>
                     <form class="d-flex" role="search">
-                        <button class="btn btn-success" type="submit">Get Started</button>
+                        <button class="btn btn-success" type="submit">Admin Login</button>
                     </form>
                 </div>
             </div>

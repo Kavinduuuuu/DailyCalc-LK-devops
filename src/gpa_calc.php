@@ -22,41 +22,85 @@
         <?php include 'header.php'; ?>
         <div class="row">
             <div class="col-12 py-3 p-3">
-                <h2 class="mt-4 text-center m-auto fs-1">Water Bill Calculator</h2>
-                <p class="mt-2 fs-4 text-center m-auto">Calculate your water bill.</p>
+                <h2 class="mt-4 text-center m-auto fs-1">GPA Calculator</h2>
+                <p class="mt-2 fs-4 text-center m-auto">Calculate your GPA.</p>
                 <hr />
                 <div class="row p-3 py-3">
                     <div class="col-md-4 col-12 p-3 py-3 electricity m-auto">
                         <div class="mb-3">
-                            <label>Subject Grade 1</label>
-                            <input type="text" class="form-control" id="sg_1" placeholder="Like (A / B / C / D / F)" />
+                            <label>Subject 1</label>
+                            <div class="row">
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="sg_1" placeholder="Suject Grade" />
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="credit_1" placeholder="Credit" />
+                                </div>
+                            </div>
                         </div>
 
                         <div class="mb-3">
-                            <label>Subject Grade 2</label>
-                            <input type="text" class="form-control" id="sg_2" placeholder="Like (A / B / C / D / F)" />
-                        </div>
-                        
-                        <div class="mb-3">
-                            <label>Subject Grade 3</label>
-                            <input type="text" class="form-control" id="sg_3" placeholder="Like (A / B / C / D / F)" />
-                        </div>
-                        
-                        <div class="mb-3">
-                            <label>Subject Grade 4</label>
-                            <input type="text" class="form-control" id="sg_4" placeholder="Like (A / B / C / D / F)" />
+                            <label>Subject 2</label>
+                            <div class="row">
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="sg_2" placeholder="Suject Grade" />
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="credit_2" placeholder="Credit" />
+                                </div>
+                            </div>
                         </div>
 
                         <div class="mb-3">
-                            <label>Subject Grade 5</label>
-                            <input type="text" class="form-control" id="sg_5" placeholder="Like (A / B / C / D / F)" />
+                            <label>Subject 3</label>
+
+                            <div class="row">
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="sg_3" placeholder="Suject Grade" />
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="credit_3" placeholder="Credit" />
+                                </div>
+                            </div>
+
                         </div>
 
                         <div class="mb-3">
-                            <label>Subject Grade 6</label>
-                            <input type="text" class="form-control" id="sg_6" placeholder="Like (A / B / C / D / F)" />
+                            <label>Subject 4</label>
+                            <div class="row">
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="sg_4" placeholder="Suject Grade" />
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="credit_4" placeholder="Credit" />
+                                </div>
+                            </div>
                         </div>
-                        
+
+                        <div class="mb-3">
+                            <label>Subject 5</label>
+                            <div class="row">
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="sg_5" placeholder="Suject Grade" />
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="credit_5" placeholder="Credit" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Subject 6</label>
+                            <div class="row">
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="sg_6" placeholder="Suject Grade" />
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="credit_6" placeholder="Credit" />
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="row">
                             <div class="col-6 d-grid mb-3">
                                 <button class="btn btn-outline-success " onclick="calculate_gpa()">Calculate</button>
@@ -68,44 +112,7 @@
                         </div>
                         <hr>
                         <div class="result-box mt-3 p-3">
-                            <table class="table table-success table-striped-columns">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Grade</th>
-                                        <th scope="col">Point</th>
-
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>A</td>
-                                        <td>4.0</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>B</td>
-                                        <td>3.0</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>C</td>
-                                        <td>2.0</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td>D</td>
-                                        <td>1.0</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">5</th>
-                                        <td>F</td>
-                                        <td>0</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
+                           
                             <strong>Your GPA:</strong> <span id="gpa">0.00</span><br>
 
                         </div>
