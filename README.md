@@ -16,7 +16,7 @@ The application focuses on simplicity, accuracy, and local relevance for Sri Lan
 �
 
 **Live URL:** 
-DailyCalcLK.wuaze.co
+DailyCalcLK.wuaze.com
 
 ## Technologies Used 
 

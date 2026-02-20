@@ -153,7 +153,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4 mb-3 mb-sm-0 col-12">
-                        <div class="card e_1" onclick="attendece_calc()">
+                        <div class="card e_1" onclick="">
                             <div class="card-body">
                                 <h5 class="card-title">Attendance Percentage Calculator</h5>
                                 <p class="card-text">Calculate your attendance percentage. </p>
