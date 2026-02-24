@@ -11,13 +11,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Install dependencies
-        # This tells the runner to jump into the folder before running the command
-        run: npm install
-        working-directory: .H:\DailyCalcLK\DailyCalc-LK-devops\DailyCalc-LK-devops\package.json 
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2' # Specify your required PHP version
+          extensions: mbstring, pdo_mysql # Install necessary extensions in a comma-separated format
+          coverage: pcov # Enable code coverage driver like PCOV or Xdebug
 
-      - name: Run npm run build
-        run: npm run build
-        working-directory: .H:\DailyCalcLK\DailyCalc-LK-devops\DailyCalc-LK-devops\package.json
+      - name: Echo Status
+        run: echo "Hello, CI Process Successful"
