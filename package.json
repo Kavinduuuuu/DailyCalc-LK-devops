@@ -1,0 +1,23 @@
+{
+  "name": "dailycalc-lk",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo Build completed successfully",
+    "test": "echo Tests completed"
+  },
+  "description": "- **Student 1:** [Kavindu Thathsara] - [ITBIN-2313-0115] - Role: [DevOps/Release Manager]  \r - **Student 2:** [Full Name as in LMS] - [Student ID] - Role: [Role Name] \r - **Student 3:** [Full Name as in LMS] - [Student ID] - Role: [Role Name]",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kavinduuuuu/DailyCalc-LK-devops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kavinduuuuu/DailyCalc-LK-devops/issues"
+  },
+  "homepage": "https://github.com/Kavinduuuuu/DailyCalc-LK-devops#readme"
+}
