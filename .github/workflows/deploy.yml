@@ -1,20 +1,16 @@
-name: FTP Deploy
+name: Deploy to Render
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   deploy:
+    name: Trigger Render Deploy
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Deploy via FTP
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-      with:
-        server: ftp.infinityfree.com
-        username: if0_40983186
-        password: Shakya0501  # ← SECURE!
-        local-dir: ./
-        server-dir: /htdocs/
+      - name: Call Render Deploy Hook
+        run: |
+          curl -X POST ${{ secrets.RENDER_DEPLOY_HOOK }}
