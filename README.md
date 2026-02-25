@@ -1,5 +1,11 @@
 # Project Title 
 
+## Build Status
+
+![CI](https://github.com/Kavinduuuuu/DailyCalc-LK-devops/actions/workflows/ci.yml/badge.svg)
+
+![Deploy](https://github.com/Kavinduuuuu/DailyCalc-LK-devops/actions/workflows/deploy.yml/badge.svg)
+
 ## Group Information 
 
 - **Student 1:** Kavindu Thathsara - ITBIN-2313-0115 - Role: DevOps/Release Manager
