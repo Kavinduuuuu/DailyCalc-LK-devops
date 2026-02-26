@@ -12,11 +12,10 @@ The system provides a clean, responsive, and user-friendly interface for common 
 The application focuses on simplicity, accuracy, and local relevance for Sri Lankan users.
 
 ## Live Deployment 
-�
-�
+dailycalc-lk-devops.onrender.com
 
 **Live URL:** 
-DailyCalcLK.wuaze.com
+https://dailycalc-lk-devops.onrender.com/
 
 ## Technologies Used 
 
