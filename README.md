@@ -1,11 +1,5 @@
 # Project Title 
 
-## Build Status
-
-![CI](https://github.com/Kavinduuuuu/DailyCalc-LK-devops/actions/workflows/ci.yml/badge.svg)
-
-![Deploy](https://github.com/Kavinduuuuu/DailyCalc-LK-devops/actions/workflows/deploy.yml/badge.svg)
-
 ## Group Information 
 
 - **Student 1:** Kavindu Thathsara - ITBIN-2313-0115 - Role: DevOps/Release Manager
@@ -18,11 +12,10 @@ The system provides a clean, responsive, and user-friendly interface for common 
 The application focuses on simplicity, accuracy, and local relevance for Sri Lankan users.
 
 ## Live Deployment 
-�
-�
+dailycalc-lk-devops.onrender.com
 
 **Live URL:** 
-DailyCalcLK.wuaze.com
+https://dailycalc-lk-devops.onrender.com/
 
 ## Technologies Used 
 
