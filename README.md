@@ -36,7 +36,7 @@ https://dailycalc-lk-devops.onrender.com/
 - Simple navigation and category-based calculators  
 
 ## Branch Strategy 
-We implemented the following branching strategy 
+We implemented the following branching strategy: 
 - `main` - Production branch 
 - `develop` - Integration branch 
 - `feature/*` - Feature development branches 
