@@ -37,9 +37,9 @@ https://dailycalc-lk-devops.onrender.com/
 
 ## Branch Strategy 
 We implemented the following branching strategy: 
-- `main` - Production branch 
-- `develop` - Integration branch 
-- `feature/*` - Feature development branches 
+- main - This is the production branch that contains the stable and final version of the application. Only tested and approved changes are merged into this branch. 
+- `develop` - This is the integration branch where all completed features are combined before being moved to the production environment. 
+- `feature/*` - These are feature development branches used to implement individual functionalities such as calculators, UI components, or backend logic.
 
 
 ## Individual Contributions 
