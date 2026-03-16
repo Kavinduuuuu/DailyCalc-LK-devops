@@ -3,7 +3,7 @@
 ## Group Information 
 
 - **Student 1:** Kavindu Thathsara - ITBIN-2313-0115 - Role: DevOps/Release Manager
-- **Student 2:** A. W. S. Sandeepa - ITBIN-2313-0142 - Role: Front End Developer
+- **Student 2:** K. W. S. Sandeepa - ITBIN-2313-0142 - Role: Front End Developer
 - **Student 3:** K. G. S. Sangeeth - ITBIN-2313-0099 - Role: Back End Developer
 
 ## Project Description 
@@ -51,7 +51,7 @@ We implemented the following branching strategy:
 - Deployment setup and release management  
 - Branch management and merge handling  
 
-### A. W. S. Sandeepa
+### K. W. S. Sandeepa
 - Development of front-end user interface using HTML, CSS, and Bootstrap  
 - Implementation of responsive layouts and UI components  
 - Client-side interactivity and validation using JavaScript  
